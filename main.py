@@ -45,7 +45,7 @@ class comparecsv:
                 else:
                     writer.writerow(merge(first_csv_data[idx],{'Flag': False}).values())
         return {
-            'message' : 'Comparision done successfully',
+            'message' : 'Comparision Done successfully',
             'filename' : 'Comparision_Output.csv'
         }
 
