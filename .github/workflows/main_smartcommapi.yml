@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'smartcommapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_35B0DA1D1D4C415EA5E1F7CF8BE5B94D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3307985272D483299775CA4FEC1A998 }}
