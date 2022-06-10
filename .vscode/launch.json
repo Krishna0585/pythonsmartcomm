@@ -12,7 +12,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "generatecsvapi:flaskapp",
+                "FLASK_APP": "generatecsvapi:app",
                 "FLASK_ENV": "development"
             },
             "args": [
