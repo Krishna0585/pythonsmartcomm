@@ -24,13 +24,14 @@ def getcmsfolders():
 @app.route('/generatecsv' ,methods=['POST',])
 def generate_csv():
     if request.method == 'POST':
-        jsonData = request.get_json()
+        return 'Working'
+        '''jsonData = request.get_json()
         isValid = validateJson(jsonData)
         if isValid[0]:
             csvnames_list = createcsv.createcsv()
             return csvnames_list
         else:
-            return jsonify(isValid[1]), 400
+            return jsonify(isValid[1]), 400'''
         
 @app.route('/generatecsvcompare' ,methods=['POST',])
 def compare_csv():
