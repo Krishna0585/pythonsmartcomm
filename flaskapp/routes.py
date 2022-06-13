@@ -21,9 +21,9 @@ def getcmsfolders():
         else:
             return jsonify(isValid[1]), 400
 
-@app.route('/generatecsv' ,methods=['POST',])
+@app.route('/generatecsv' ,methods=['GET',])
 def generate_csv():
-    if request.method == 'POST':
+    if request.method == 'GET':
         return 'Working'
         '''jsonData = request.get_json()
         isValid = validateJson(jsonData)
