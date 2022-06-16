@@ -19,7 +19,7 @@ generatecsv_requestBodySchema = {
         "properties": {
             "environ": {"type": "string"},
             "tenancy": {"type": "string"},
-            "folderId":{"type": "int"},
+            "folderId":{"type": "array"},
             "client_key": {"type": "string"},
             "client_secret": {"type": "string"}
         },
